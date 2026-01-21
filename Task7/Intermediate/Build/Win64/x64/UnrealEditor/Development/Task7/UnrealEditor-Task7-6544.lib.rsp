@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Task7-6544.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\Task7Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\MyPawn.gen.cpp.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\Task7.init.gen.cpp.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\Task7.cpp.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\MyPawn.cpp.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\PerModuleInline.gen.cpp.obj"
+"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\Default.rc2.res"
+/OUT:"C:\Users\user\Desktop\NBC\Simple_Pawn\Task7\Intermediate\Build\Win64\x64\UnrealEditor\Development\Task7\UnrealEditor-Task7-6544.lib"
