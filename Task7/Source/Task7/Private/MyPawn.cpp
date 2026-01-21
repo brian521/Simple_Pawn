@@ -108,13 +108,13 @@ void AMyPawn::Tick(float DeltaTime)
 
 	if (!MoveInput.IsNearlyZero())
 	{
-		FVector MoveDirection =	GetActorForwardVector() * MoveInput.X + GetActorRightVector() * MoveInput.Y;
+		//FVector MoveDirection =	GetActorForwardVector() * MoveInput.X + GetActorRightVector() * MoveInput.Y;
 
-		MoveDirection.Normalize();
+		//MoveDirection.Normalize();
 
-		FVector DeltaMove = MoveDirection * MoveSpeed * DeltaTime;
-
-		AddActorWorldOffset(DeltaMove, true);
+		//FVector DeltaMove = MoveDirection * MoveSpeed * DeltaTime;
+		FVector DeltaMove =	FVector(MoveInput.X, MoveInput.Y, 0.f) * MoveSpeed * DeltaTime;
+		AddActorLocalOffset(DeltaMove, true);
 	}
 
 	if (!LookInput.IsNearlyZero())
